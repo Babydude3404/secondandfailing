@@ -4,85 +4,70 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Second and Failing | Jason Dinger | Secondhand Vintage Electronics, Eastern Oregon</title>
-<meta name="description" content="Second and Failing is Jason Dinger's electronics salvage and clear-out business in Eastern Oregon: vacuum tubes, vintage CPUs and motherboards, components and odd lots, sorted and sold.">
-<meta property="og:title" content="Second and Failing | Jason Dinger">
-<meta property="og:description" content="Secondhand vintage electronics, salvaged and sorted by Jason Dinger in Eastern Oregon.">
-<meta property="og:image" content="img/eproms.jpg">
+<meta name="description" content="Second and Failing: vintage electronics salvaged, sorted and passed on by Jason Dinger in Eastern Oregon. Anyone can stamp a box NOS. The getter flash never lies.">
+<meta property="og:title" content="Second and Failing">
+<meta property="og:description" content="Anyone can stamp a box NOS. The getter flash never lies.">
+<meta property="og:image" content="img/cover.jpg">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"Second and Failing",
  "email":"secondandfailing@gmail.com","areaServed":"US",
  "address":{"@type":"PostalAddress","addressRegion":"OR","addressCountry":"US"},
  "founder":{"@type":"Person","name":"Jason Dinger","jobTitle":"Owner"},
- "description":"Electronics salvage and clear-outs: vacuum tubes, vintage CPUs and motherboards, components and odd lots."}
+ "description":"Vintage electronics, salvaged and sorted."}
 </script>
 <style>
-:root{--bg:#f7f5f0;--ink:#1c1c1a;--mute:#5d5d58;--card:#fff;--line:#e2dfd6;--gold:#b8860b}
-@media (prefers-color-scheme:dark){:root{--bg:#121315;--ink:#ecebe6;--mute:#a4a39c;--card:#1b1d20;--line:#2b2e33;--gold:#d4a72c}}
+:root{--bg:#f4f2ec;--ink:#1c1c1a;--mute:#5d5d58;--line:#e2dfd6;--gold:#a87b0a}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1012;--ink:#ecebe6;--mute:#a4a39c;--line:#2b2e33;--gold:#d4a72c}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,"Segoe UI",sans-serif}
-header,main,footer{max-width:960px;margin:auto;padding:0 16px}
-header{padding-top:40px}
-.brand{color:var(--gold);letter-spacing:.12em;font-weight:700;font-size:14px;text-transform:uppercase}
-h1{font-size:clamp(30px,5vw,46px);line-height:1.1;margin:8px 0 12px}
-.lead{font-size:19px;color:var(--mute);max-width:640px}
-.hero{width:100%;border-radius:10px;margin:28px 0 8px;display:block}
-h2{font-size:24px;margin:44px 0 10px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
-.card h3{margin:0 0 6px;font-size:18px}
-.card p{margin:0;color:var(--mute)}
-.listing{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
-.listing img{width:100%;border-radius:8px}
+.wrap{max-width:900px;margin:auto;padding:0 16px}
+.brand{text-align:center;color:var(--gold);letter-spacing:.3em;font-weight:700;font-size:15px;text-transform:uppercase;padding:44px 0 22px}
+figure{position:relative;margin:0 auto;max-width:560px;border-radius:12px;overflow:hidden;box-shadow:0 10px 40px rgba(0,0,0,.35)}
+figure img{display:block;width:100%}
+figcaption{position:absolute;left:0;right:0;bottom:0;padding:90px 26px 28px;
+  background:linear-gradient(to top,rgba(8,8,10,.92),rgba(8,8,10,.55) 60%,rgba(8,8,10,0));
+  color:#f3efe2;font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:clamp(22px,4.4vw,30px);line-height:1.3;text-align:center}
+figcaption span{display:block}
+.open{text-align:center;color:var(--mute);max-width:520px;margin:30px auto 0;font-size:18px}
+h2{font-size:22px;margin:64px 0 8px;text-align:center}
+.note{text-align:center;color:var(--mute);margin:0 0 20px}
+.listing{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pics img{width:100%;border-radius:8px}
 @media (max-width:640px){.listing{grid-template-columns:1fr}}
 a{color:var(--gold)}
-.btn{display:inline-block;background:var(--gold);color:#111;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:8px;margin-top:10px}
-footer{color:var(--mute);font-size:14px;padding:48px 16px 40px}
+.btn{display:inline-block;background:var(--gold);color:#111;text-decoration:none;font-weight:700;padding:12px 18px;border-radius:8px;margin-top:8px}
+.contact{text-align:center;margin-top:64px}
+footer{text-align:center;color:var(--mute);font-size:14px;padding:40px 16px}
 </style>
 </head>
 <body>
-<header>
+<div class="wrap">
   <div class="brand">Second and Failing</div>
-  <h1>Secondhand vintage electronics, salvaged and sorted</h1>
-  <p class="lead">Second and Failing is Jason Dinger's salvage and clear-out business in Eastern Oregon. I find vintage electronics before they go to scrap, sort them carefully, and sell them to the people who can use them.</p>
-  <img class="hero" src="img/eproms.jpg" alt="Mitsubishi M5L2764K windowed ceramic EPROMs with printed labels, laid out in rows">
-</header>
-<main>
-  <h2>What I do</h2>
-  <p>I started out like most people, pulling old electronics for scrap. It didn't take long to see that a lot of what goes in the scrap bin is worth far more to a collector, a repair tech or a restorer. I've got a good eye for what's worth saving, and I'm meticulous about sorting, counting and labelling, so you know exactly what you're getting.</p>
-  <p>I sell what I come across, so the stock changes. Some things I see often, others turn up once.</p>
-  <div class="grid">
-    <div class="card"><h3>Vacuum tubes</h3><p>Pulled and new old stock tubes for audio, radio and test gear.</p></div>
-    <div class="card"><h3>Vintage CPUs and motherboards</h3><p>Collectible processors and boards, sorted and identified.</p></div>
-    <div class="card"><h3>Components and odd lots</h3><p>ICs, connectors and parts in quantity, whenever a good lot turns up.</p></div>
-    <div class="card"><h3>Clear-outs</h3><p>Got a shop, garage, estate or storage unit full of old electronics? Get in touch before it goes to scrap.</p></div>
-  </div>
+  <figure>
+    <img src="img/cover.jpg" alt="A clear case of vintage gold and white ceramic chips, Sprague logic and an AMD 286, set in blue foam">
+    <figcaption><span>Anyone can stamp a box NOS.</span><span>The getter flash never lies.</span></figcaption>
+  </figure>
+  <p class="open">Old electronics, pulled back from the scrap pile and sorted by hand. What turns up next is anybody's guess.</p>
 
-  <h2>Right now: a one-time arcade repair lot</h2>
-  <p>This came out of a single find, and I may never have a lot like it again.</p>
+  <h2>On the bench right now</h2>
+  <p class="note">A one-time arcade repair lot. It came out of a single find.</p>
   <div class="listing">
     <div>
-      <p>61 lots sold together as one package: 48 Mitsubishi M5L2764K windowed EPROMs, 97 Rockwell R8040P in rails, gold-pin Hitachi 74LS rails, a Zilog Z80 set, bulk 74-series TTL, and 318 card-edge and PCB connectors (3M, Amphenol, Sullins, ITT Cannon). Mostly new old stock.</p>
-      <p>Every lot is photographed as the actual stock you receive. Rails and small lots are hand counted; large bulk bags are careful estimates, rounded down.</p>
-      <a class="btn" href="https://www.ebay.com/itm/377646991459">See the listing on eBay</a>
+      <p>61 lots, sold together: 48 Mitsubishi M5L2764K windowed EPROMs, 97 Rockwell R8040P in rails, gold-pin Hitachi 74LS rails, a Zilog Z80 set, bulk 74-series TTL, and 318 card-edge and PCB connectors (3M, Amphenol, Sullins, ITT Cannon). Mostly new old stock.</p>
+      <p>What's in the photos is what ships. Rails and small lots are hand counted; big bags are careful estimates, rounded down.</p>
+      <a class="btn" href="https://www.ebay.com/itm/377646991459">See it on eBay</a>
     </div>
-    <div class="grid" style="grid-template-columns:1fr 1fr">
+    <div class="pics">
       <img src="img/eprom_rails.jpg" alt="Rows of labelled M5L2764K EPROMs">
       <img src="img/connectors.jpg" alt="3M 50-position right-angle PCB connectors in numbered groups">
     </div>
   </div>
 
-  <h2>How I sell</h2>
-  <div class="grid">
-    <div class="card"><h3>Buyer protection</h3><p>Sales run through eBay or PayPal Goods &amp; Services, so you're covered.</p></div>
-    <div class="card"><h3>Honest counts</h3><p>What's in the photo is what ships. Questions or extra photos of any lot, just ask.</p></div>
-    <div class="card"><h3>Lots welcome</h3><p>Repair shops and resellers: ask about whole-lot pricing.</p></div>
+  <div class="contact">
+    <p>Jason Dinger<br><a href="mailto:secondandfailing@gmail.com">secondandfailing@gmail.com</a><br>Eastern Oregon</p>
   </div>
-
-  <h2>Contact</h2>
-  <p>Jason Dinger, owner<br>
-  Email: <a href="mailto:secondandfailing@gmail.com">secondandfailing@gmail.com</a><br>
-  Eastern Oregon, USA. Ships nationwide.</p>
-</main>
-<footer>&copy; 2026 Second and Failing &middot; Jason Dinger</footer>
+</div>
+<footer>&copy; 2026 Second and Failing</footer>
 </body>
 </html>
